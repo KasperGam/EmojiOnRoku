@@ -107,7 +107,7 @@ function checkBoundingWidth()
     for index = 0 to comps.count() - 1
         comp = comps[index]
         ' If we are already over the width, then don't display any other components
-        if curWidth >= width
+        if curWidth >= width and width > 0
             comp.visible = false
         else
             ' See if this component extends beyond the available width

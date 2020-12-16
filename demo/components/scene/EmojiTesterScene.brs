@@ -3,10 +3,9 @@
 sub init()
     m.emojiOnRoku = createObject("roSGNode", "ComponentLibrary")
     m.emojiOnRoku.id = "EmojiOnRoku"
-    m.emojiOnRoku.uri = "https://github.com/KasperGam/EmojiOnRoku/archive/v0.1-alpha.zip"
+    m.emojiOnRoku.uri = "https://github.com/KasperGam/EmojiOnRoku/releases/download/v0.3-alpha/release.zip"
 
     m.emojiOnRoku.observeField("loadStatus", "onLibLoaded")
-    testStr = "Hello 👨🏻‍🦰! I am happy 😊 to see you. See emoji 👩🏽‍🦱 chars!"
 end sub
 
 function onLibLoaded()
@@ -19,6 +18,8 @@ end function
 
 function setupEmojiLabel()
     if m.emojiLabel = Invalid
+        testStr = "Hello 👨🏻‍🦰! I am happy 😊 to see you. See emoji 👩🏽‍🦱 chars!"
+
         m.emojiLabel = createObject("roSGNode", "EmojiOnRoku:EmojiLabel")
         m.emojiLabel.translation = [200, 500]
         m.emojiLabel.height = 24
