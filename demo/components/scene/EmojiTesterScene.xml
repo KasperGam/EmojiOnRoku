@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- Copyright Kasper Gammeltoft and other contributors. Licensed under MIT
-    https://github.com/KasperGam/emojionroku/blob/master/LICENSE -->
+    https://github.com/KasperGam/EmojiOnRoku/blob/main/LICENSE -->
 <component name="EmojiTesterScene" extends="Scene">
     <script type="text/brightscript" uri="EmojiTesterScene.brs" />
 </component>

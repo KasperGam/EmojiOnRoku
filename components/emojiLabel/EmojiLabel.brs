@@ -1,5 +1,5 @@
 ' Copyright Kasper Gammeltoft and other contributors. Licensed under MIT
-' https://github.com/KasperGam/emojionroku/blob/master/LICENSE
+' https://github.com/KasperGam/EmojiOnRoku/blob/main/LICENSE
 sub init()
     m.components = m.top.findNode("layout")
     m.top.observeField("text", "setText")

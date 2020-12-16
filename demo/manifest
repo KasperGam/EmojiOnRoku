@@ -1,5 +1,5 @@
 # Copyright 2020 Kasper Gammeltoft and other Contributors. Licensed under MIT
-# https://github.com/KasperGam/emojionroku/blob/master/LICENSE
+# https://github.com/KasperGam/EmojiOnRoku/blob/main/LICENSE
 ##   Channel Details
 title=EmojiOnRokuDemo
 major_version=1
@@ -10,5 +10,3 @@ mm_icon_focus_hd=pkg:/images/channel-icon_HD.png
 mm_icon_focus_hd=pkg:/images/channel-icon_HD.png
 
 ui_resolutions=FHD
-sg_component_libs_provided=EmojiOnRoku
-rsg_version=1.2

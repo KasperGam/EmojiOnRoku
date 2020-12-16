@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright Kasper Gammeltoft and other contributors. Licensed under MIT
-    https://github.com/KasperGam/emojionroku/blob/master/LICENSE -->
+    https://github.com/KasperGam/EmojiOnRoku/blob/main/LICENSE -->
 
 <!-- EmojiLabel- Component used to display text that includes emoji in Scenegraph. 
 Use as an ordinary Scenegraph Label node, with the following exceptions:
