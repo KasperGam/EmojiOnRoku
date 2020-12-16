@@ -1,0 +1,27 @@
+This project is based on the Twemoji project, Copywrite 2019 Twitter Inc,
+to the brightscript language and scenegraph user interface. You can
+find the origional project here: https://github.com/twitter/twemoji.
+Special thanks to Twitter and all contributors to the Twemoji project
+for making this possible. 
+
+Twemoji is licensed under the MIT License, 
+https://github.com/twitter/twemoji/blob/master/LICENSE.
+
+Specific uses: The code to generate file names from emoji raw text 
+was used and adapted for brightscript, and can be found in origional
+form here: https://github.com/twitter/twemoji/blob/master/scripts/build.js.
+
+The Regular Expression for detecting Emojis is derived from the
+emoji-regex project by Mathias Bynens, Copywrite Mathias Bynens. You can 
+find the emoji-regex project here: 
+https://github.com/mathiasbynens/emoji-regex.
+Special thanks to @mathiasbynens and all contributors to the emoji-regex
+project for making this possible. 
+
+emoji-regex is licensed under the MIT License, 
+https://github.com/mathiasbynens/emoji-regex/blob/master/LICENSE. 
+
+Specific uses: The regex found here: 
+https://github.com/mathiasbynens/emoji-regex/blob/master/es2015/RGI_Emoji.js
+was modified to fit the schema of PCRE to be accepted by Roku's regex 
+component. PCRE documentation can be found here: http://www.pcre.org/. 
