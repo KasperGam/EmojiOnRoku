@@ -3,7 +3,7 @@
 sub init()
     m.emojiOnRoku = createObject("roSGNode", "ComponentLibrary")
     m.emojiOnRoku.id = "EmojiOnRoku"
-    m.emojiOnRoku.uri = "https://github.com/KasperGam/EmojiOnRoku/releases/download/v0.3-alpha/release.zip"
+    m.emojiOnRoku.uri = "https://github.com/KasperGam/EmojiOnRoku/releases/download/v1.0.0/release.zip"
 
     m.emojiOnRoku.observeField("loadStatus", "onLibLoaded")
 end sub
